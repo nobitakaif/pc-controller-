@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+langchain
+langchain-core
+langchain-community
+
+huggingface-hub
+transformers
+
+python-dotenv
+httpx
+
+pytest
+pytest-asyncio

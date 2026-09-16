@@ -5,6 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "agent-tools",
     "fastapi>=0.141.1",
     "uvicorn[standard]>=0.53.0",
 ]
+
+[tool.uv.sources]
+agent-tools = { path = "../../packages/agent-tools" }

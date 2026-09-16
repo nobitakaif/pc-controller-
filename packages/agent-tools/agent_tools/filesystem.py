@@ -13,11 +13,10 @@ def create_folder(folder_name : str) -> str:
     """
     
     desktop = Path.home() / "Desktop" 
-    folder = desktop / folder
+    folder = desktop / folder_name
     folder.mkdir(exist_ok=True)
     return f"folder '{ folder_name }' created successfully on desktop "
 
 
-print(create_folder.args)
-print(create_folder.name)
+
 
